@@ -1,3 +1,0 @@
-Completed: Basic Structure and Functionality
-
-ToDo: Change the color of the "10s" in the summary-box and do the mobile version

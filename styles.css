@@ -156,6 +156,14 @@ body{
     margin-bottom: 30px;
 }
 
+.container .black-text{
+    color: black;
+}
+
+.container .grey-text{
+    color: hsl(224, 30%, 27%);
+}
+
 .container .continue-button{
     background-color: hsl(224, 30%, 27%);
     text-align: center;
