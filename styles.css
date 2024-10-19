@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18rem;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    box-shadow: 2px 2px 5px;
+    border-radius: 1.5em;
+    width: 450px;
+    height: 350px;
+}
+
+.container #result-box{
+    background: linear-gradient(hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    border: none;
+    border-radius: 1.5rem;
+    padding: 1rem 1.5rem;
+}
+
+.container #result-box #introduction{
+    font-weight: 700;
+    font-size: 18px;
+    color: hsl(241, 100%, 89%);
+    margin-bottom: 1.2rem;
+}
+
+.container #score-circle{
+    background: linear-gradient(hsla(241, 72%, 46%, 0), hsla(256, 72%, 46%, 1));
+    padding: 1.5rem 2rem;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+    margin-bottom: 1rem;
+}
+
+.container #score-circle #score{
+    color: hsl(0, 0%, 100%);
+    font-weight: 800;
+    font-size:48px;
+}
+
+.container #score-circle #max-score{
+    color: hsl(241, 100%, 89%);
+}
+
+.container h3{
+    font-weight: 800;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+}
+
+.container #performance{
+    font-weight: 500;
+    font-size: 15px;
+    color: hsl(241, 100%, 89%);
+}
+
+.container #summary-box{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    padding: 15px 5px;
+}
+
+.container #summary-box h4{
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.container #summary-box #score-container
+{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 10px;
+}
+
+.container #summary-box b{
+    color: black;
+}
+
+.container #summary-box #reaction-score{
+    background-color: hsla(0, 100%, 67%, 0.169);
+    color:hsl(0, 100%, 67%);
+    text-align: center;
+    display: flex;
+    gap: 5px;
+    width: 190px;
+    padding: 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container #summary-box #memory-score{
+    background-color: hsla(39, 100%, 56%, 0.169);
+    color: hsl(39, 100%, 56%);
+    display: flex;
+    gap: 6px;
+    width: 190px;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container #summary-box #verbal-score{
+    background-color: hsla(166, 100%, 37%, 0.169);
+    color: hsl(166, 100%, 37%);
+    display: flex;
+    gap: 5px;
+    width: 190px;
+    padding: 6px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container #summary-box #visual-score{
+    background-color: hsla(234, 85%, 45%, 0.169);
+    color: hsl(234, 85%, 45%);
+    display: flex;
+    gap: 5px;
+    width: 190px;
+    padding: 6px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+.container .continue-button{
+    background-color: hsl(224, 30%, 27%);
+    text-align: center;
+    display: block;
+    padding: 10px;
+    margin-right: 5px;
+    border-radius: 20px;
+}
+
+.container .continue-button a{
+    display: block;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+}
+
+.continue-button:hover{
+    background: linear-gradient(hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+}
